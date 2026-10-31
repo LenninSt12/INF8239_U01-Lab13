@@ -1,6 +1,6 @@
-priority_harm: REPLACE
-primary_metric: REPLACE
-tolerance: REPLACE
-evidence: REPLACE
-limitation: REPLACE
-recommendation: REPLACE
+priority_harm: "Disparidad en la tasa de selección y mayores falsos positivos en los subgrupos evaluados, afectando la equidad en la asignación de revisiones de control."
+primary_metric: "Tasa de selección y Sensibilidad (Recall)"
+tolerance: "Diferencia máxima permitida del 10% en las métricas de equidad entre los grupos G1 y G2."
+evidence: "Reportes generados en reports/lab12/logistic/ y reports/lab12/tree/ con los datos de MetricFrame."
+limitation: "Tamaño limitado de muestras en análisis interseccionales que genera alta incertidumbre estadística."
+recommendation: "REVIEW: Mantener supervisión humana obligatoria y calibrar los umbrales de decisión para mitigar las brechas detectadas entre grupos antes de un despliegue completo."
