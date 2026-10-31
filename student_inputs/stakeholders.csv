@@ -1,0 +1,5 @@
+stakeholder,benefit,harm,power,mechanism
+Usuarios Operativos / Analistas de Riesgo,Reducción del tiempo en la identificación de anomalías operativas,Sobrecarga de trabajo si el modelo genera demasiados falsos positivos,Alto,Canal directo de retroalimentación y ajuste de umbrales
+Unidades de Negocio Evaluadas,Mejora en la transparencia y estandarización de los controles internos,Posible sesgo en la priorización de auditorías locales,Medio,Mecanismo de apelación y revisión con el comité de riesgos
+Regidores y Auditores Internos,Mayor trazabilidad y cumplimiento de marcos de gobernanza NIST AI RMF,Riesgo reputacional ante fallos sistémicos o falta de explicabilidad,Alto,Informes formales de auditoría y revisión de Model Cards
+Clientes Finales (Indirecto),Protección indirecta de la estabilidad operativa de la institución,Posibles fricciones operativas por controles derivados,Bajo,Canal de atención al cliente y defensor del cliente

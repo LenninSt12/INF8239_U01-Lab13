@@ -1,0 +1,10 @@
+# Configuración de Evaluación de Impacto Ético - LAB11 (Sector Financiero / Riesgo Operacional)
+purpose: "Automatizar la identificación y priorización de anomalías y debilidades en controles internos de procesos bancarios mediante análisis de datos históricos de riesgo."
+assisted_decision: "Determinar qué procesos operativos o unidades de negocio requieren una auditoría de control intensiva y prioritaria."
+users: "Especialistas de riesgo operacional, analistas de control interno y auditores."
+affected_population: "Procesos internos, unidades operativas y flujos de transacciones evaluados."
+owner: "División de Gestión de Riesgo Operacional y Evaluación de Controles."
+non_predictive_alternative: "Revisión manual tradicional basada en muestreos estáticos y listas de chequeo por antigüedad."
+out_of_scope_use: "Aplicar medidas disciplinarias o sanciones automáticas a colaboradores basándose exclusivamente en las alertas predictivas del modelo."
+withdrawal_condition: "El sistema deberá suspenderse y retirarse de producción si la tasa de falsos positivos en las alertas críticas supera el 15% o si se detecta un sesgo de cobertura sistemático entre subgrupos de sucursales."
+appeal_mechanism: "Canal formal de revisión y escalamiento con el comité de riesgos para impugnar o solicitar una auditoría manual de las alertas generadas por el sistema."
